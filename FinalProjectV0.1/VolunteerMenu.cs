@@ -41,7 +41,7 @@ namespace FinalProjectV0._1
             string fileContent;
             try
             {
-                using (Stream inTo = OpenFileInput("temp.txt"))
+                using (Stream inTo = OpenFileInput("isRegistered.txt"))
                 {
                     try
                     {

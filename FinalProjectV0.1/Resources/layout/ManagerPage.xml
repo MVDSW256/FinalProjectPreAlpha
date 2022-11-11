@@ -3,20 +3,19 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Register Page"/>
-
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Detroit: Become Registered"
-        android:id="@+id/register"/>
+        android:text="GO TO LIST OF VOLUNTEERS"
+        android:id="@+id/btnGoToVolunteerList"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Admin Registration"
-        android:id="@+id/registerAdmin"/>
+        android:text="GO TO LIST OF VOLUNTEERS"
+        android:id="@+id/btnGoToGroupList"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GO TO LIST OF VOLUNTEERS"
+        android:id="@+id/btnGoToAddMenu"/>
 </LinearLayout>
