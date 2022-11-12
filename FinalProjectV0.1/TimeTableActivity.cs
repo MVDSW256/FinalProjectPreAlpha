@@ -14,6 +14,7 @@ namespace FinalProjectV0._1
     [Activity(Label = "TimeTableActivity")]
     public class TimeTableActivity : Activity
     {
+        DateTime dayToDisplay;
         Button btnMoveToEditTime, btnMoveToTimeTable, btnChangeDate;
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -41,13 +42,20 @@ namespace FinalProjectV0._1
 
         private void BtnChangeDate_Click(object sender, EventArgs e)
         {
-            Dialog d = new Dialog(this);
+            /*Dialog d = new Dialog(this);
             d.SetContentView(Resource.Layout.TempDatePicker);
             d.SetTitle("Date Picker");
             d.SetCancelable(true);
-            d.Show();
+            d.Show();*/
+            DateTime today = DateTime.Today;
+            DatePickerDialog dpd = new DatePickerDialog(this, OnDateSet, today.Year, today.Month-1, today.Day);
+            dpd.Show();
         }
-
+        private void OnDateSet(object sender, DatePickerDialog.DateSetEventArgs e)
+        {
+            dayToDisplay = e.Date;
+            return;
+        }
         private void BtnMoveToEditTime_Click(object sender, System.EventArgs e)
             {
             Toast.MakeText(this, "This is yet to be built", ToastLength.Short).Show();
