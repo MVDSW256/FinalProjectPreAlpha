@@ -22,15 +22,22 @@ namespace FinalProjectV0._1
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.timeTable);
             btnMoveToEditTime = FindViewById<Button>(Resource.Id.btnMoveToEditTime);
-            btnMoveToTimeTable = FindViewById<Button>(Resource.Id.btnMoveToTimeTable);
+            //btnMoveToTimeTable = FindViewById<Button>(Resource.Id.btnMoveToTimeTable);
             btnChangeDate = FindViewById<Button>(Resource.Id.btnChangeDate);
 
 
             btnMoveToEditTime.Click += BtnMoveToEditTime_Click;
-            btnMoveToTimeTable.Click += BtnMoveToTimeTable_Click;
+            //btnMoveToTimeTable.Click += BtnMoveToTimeTable_Click1;
             btnChangeDate.Click += BtnChangeDate_Click;
 
         }
+
+        /* private void BtnMoveToTimeTable_Click1(object sender, EventArgs e)
+         {
+             Toast.MakeText(this, "Loading", ToastLength.Short).Show();
+             Intent intent = new Intent(this, typeof(VolunteerMenu));
+             StartActivity(intent);
+         }*/
 
         private void BtnChangeDate_Click(object sender, EventArgs e)
         {
@@ -39,13 +46,6 @@ namespace FinalProjectV0._1
             d.SetTitle("Date Picker");
             d.SetCancelable(true);
             d.Show();
-        }
-
-        private void BtnMoveToTimeTable_Click(object sender, EventArgs e)
-        {
-            Toast.MakeText(this, "Loading", ToastLength.Short).Show();
-            Intent intent = new Intent(this, typeof(VolunteerMenu));
-            StartActivity(intent);
         }
 
         private void BtnMoveToEditTime_Click(object sender, System.EventArgs e)

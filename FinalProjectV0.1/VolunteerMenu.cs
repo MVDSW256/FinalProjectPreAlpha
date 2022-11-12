@@ -42,9 +42,16 @@ namespace FinalProjectV0._1
 
         private void BtnMoveToManagerPage_Click(object sender, EventArgs e)
         {
-            Toast.MakeText(this, "Loading", ToastLength.Short).Show();
-            Intent intent = new Intent(this, typeof(ManagerPageActivity));
-            StartActivity(intent);
+            if (CheckIfRegistered())
+            {
+                Toast.MakeText(this, "Loading", ToastLength.Short).Show();
+                Intent intent = new Intent(this, typeof(ManagerPageActivity));
+                StartActivity(intent);
+            }
+            else
+            {
+                Toast.MakeText(this, "Access Denied", ToastLength.Short).Show();
+            }
         }
 
         private bool CheckIfRegistered()

@@ -7,20 +7,25 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="This page is not yet avilable"/>
+        android:text="This page is not ready yet"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GO BACK TO THE VOLUNTEER MENU"
+        android:id="@+id/btnMoveToVolunteerMenu"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="GO TO LIST OF VOLUNTEERS"
-        android:id="@+id/btnGoToVolunteerList"/>
+        android:id="@+id/btnMoveToVolunteerList"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="GO TO LIST OF Groups"
-        android:id="@+id/btnGoToGroupList"/>
+        android:id="@+id/btnMoveToGroupList"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="GO TO Adding Menu"
-        android:id="@+id/btnGoToAddMenu"/>
+        android:id="@+id/btnMoveToAddMenu"/>
 </LinearLayout>

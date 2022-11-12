@@ -3591,28 +3591,28 @@ namespace FinalProjectV0._1
 			public const int btnChangeDate = 2131230792;
 			
 			// aapt resource value: 0x7F080049
-			public const int btnGoToAddMenu = 2131230793;
+			public const int btnMoveToAddMenu = 2131230793;
 			
 			// aapt resource value: 0x7F08004A
-			public const int btnGoToGroupList = 2131230794;
+			public const int btnMoveToEditTime = 2131230794;
 			
 			// aapt resource value: 0x7F08004B
-			public const int btnGoToVolunteerList = 2131230795;
+			public const int btnMoveToGroupList = 2131230795;
 			
 			// aapt resource value: 0x7F08004C
-			public const int btnMoveToEditTime = 2131230796;
+			public const int btnMoveToManagerPage = 2131230796;
 			
 			// aapt resource value: 0x7F08004D
-			public const int btnMoveToManagerPage = 2131230797;
+			public const int btnMoveToRegularVolunteerTimeTable = 2131230797;
 			
 			// aapt resource value: 0x7F08004E
-			public const int btnMoveToRegularVolunteerTimeTable = 2131230798;
+			public const int btnMoveToSessionNotes = 2131230798;
 			
 			// aapt resource value: 0x7F08004F
-			public const int btnMoveToSessionNotes = 2131230799;
+			public const int btnMoveToTimeTable = 2131230799;
 			
 			// aapt resource value: 0x7F080050
-			public const int btnMoveToTimeTable = 2131230800;
+			public const int btnMoveToVolunteerList = 2131230800;
 			
 			// aapt resource value: 0x7F080051
 			public const int btnMoveToVolunteerMenu = 2131230801;
