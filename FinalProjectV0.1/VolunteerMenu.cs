@@ -14,7 +14,7 @@ namespace FinalProjectV0._1
     public class VolunteerMenu : AppCompatActivity
     {
         bool isRegistered = false;
-        Button btnMoveToTimeTable, btnMoveToSessionNotes;
+        Button btnMoveToTimeTable, btnMoveToSessionNotes, btnMoveToManagerPage;
         protected override void OnCreate(Bundle savedInstanceState)
         {  
             base.OnCreate(savedInstanceState);
@@ -30,10 +30,21 @@ namespace FinalProjectV0._1
             }
             btnMoveToTimeTable = FindViewById<Button>(Resource.Id.btnMoveToTimeTable);
             btnMoveToSessionNotes = FindViewById<Button>(Resource.Id.btnMoveToSessionNotes);
+            btnMoveToManagerPage = FindViewById<Button>(Resource.Id.btnMoveToManagerPage);
 
 
             btnMoveToTimeTable.Click += BtnMoveToTimeTable_Click;
             btnMoveToSessionNotes.Click += BtnMoveToSessionNotes_Click;
+            btnMoveToManagerPage.Click += BtnMoveToManagerPage_Click;
+
+
+        }
+
+        private void BtnMoveToManagerPage_Click(object sender, EventArgs e)
+        {
+            Toast.MakeText(this, "Loading", ToastLength.Short).Show();
+            Intent intent = new Intent(this, typeof(ManagerPageActivity));
+            StartActivity(intent);
         }
 
         private bool CheckIfRegistered()

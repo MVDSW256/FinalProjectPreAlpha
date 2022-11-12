@@ -14,7 +14,7 @@ namespace FinalProjectV0._1
     [Activity(Label = "TimeTableActivity")]
     public class TimeTableActivity : Activity
     {
-        Button btnMoveToEditTime, btnMoveToRegularVolunteerTimeTable, btnChangeDate;
+        Button btnMoveToEditTime, btnMoveToTimeTable, btnChangeDate;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -22,12 +22,12 @@ namespace FinalProjectV0._1
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.timeTable);
             btnMoveToEditTime = FindViewById<Button>(Resource.Id.btnMoveToEditTime);
-            btnMoveToRegularVolunteerTimeTable = FindViewById<Button>(Resource.Id.btnMoveToRegularVolunteerTimeTable);
+            btnMoveToTimeTable = FindViewById<Button>(Resource.Id.btnMoveToTimeTable);
             btnChangeDate = FindViewById<Button>(Resource.Id.btnChangeDate);
 
 
             btnMoveToEditTime.Click += BtnMoveToEditTime_Click;
-            btnMoveToRegularVolunteerTimeTable.Click += BtnMoveToRegularVolunteerTimeTable_Click;
+            btnMoveToTimeTable.Click += BtnMoveToTimeTable_Click;
             btnChangeDate.Click += BtnChangeDate_Click;
 
         }
@@ -41,7 +41,7 @@ namespace FinalProjectV0._1
             d.Show();
         }
 
-        private void BtnMoveToRegularVolunteerTimeTable_Click(object sender, EventArgs e)
+        private void BtnMoveToTimeTable_Click(object sender, EventArgs e)
         {
             Toast.MakeText(this, "Loading", ToastLength.Short).Show();
             Intent intent = new Intent(this, typeof(VolunteerMenu));

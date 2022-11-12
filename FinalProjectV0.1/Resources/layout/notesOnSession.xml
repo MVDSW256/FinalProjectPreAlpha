@@ -4,11 +4,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+
+    <TextView
+        android:text="This page is unavilavble in the alpha version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title" 
+        android:textSize="32dp"/>
+
      <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="move to time table"
-        android:id="@+id/btnMoveToRegularVolunteerMenu"/>
+        android:text="move to Volunteer Menu"
+        android:id="@+id/btnMoveToVolunteerMenu"/>
 
 
 </LinearLayout>

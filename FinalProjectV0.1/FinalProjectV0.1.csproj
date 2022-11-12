@@ -62,6 +62,7 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ManagerPageActivity.cs" />
     <Compile Include="NotesActivity.cs" />
     <Compile Include="RegisterPageActivity.cs" />
     <Compile Include="VolunteerMenu.cs" />

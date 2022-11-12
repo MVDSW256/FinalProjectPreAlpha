@@ -3,6 +3,11 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This page is not yet avilable"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -11,11 +16,11 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="GO TO LIST OF VOLUNTEERS"
+        android:text="GO TO LIST OF Groups"
         android:id="@+id/btnGoToGroupList"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="GO TO LIST OF VOLUNTEERS"
+        android:text="GO TO Adding Menu"
         android:id="@+id/btnGoToAddMenu"/>
 </LinearLayout>

@@ -14,7 +14,7 @@ namespace FinalProjectV0._1
     [Activity(Label = "Activity1")]
     public class NotesActivity : Activity
     {
-        Button BtnMoveToRegularVolunteerMenu;
+        Button BtnMoveToVolunteerMenu;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -22,12 +22,12 @@ namespace FinalProjectV0._1
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.notesOnSession);
 
-            BtnMoveToRegularVolunteerMenu = FindViewById<Button>(Resource.Id.btnMoveToRegularVolunteerMenu);
+            BtnMoveToVolunteerMenu = FindViewById<Button>(Resource.Id.btnMoveToVolunteerMenu);
 
-            BtnMoveToRegularVolunteerMenu.Click += BtnMoveToRegularVolunteerTimeTable_Click;
+            BtnMoveToVolunteerMenu.Click += BtnMoveToVolunteerTimeTable_Click;
         }
 
-        private void BtnMoveToRegularVolunteerTimeTable_Click(object sender, EventArgs e)
+        private void BtnMoveToVolunteerTimeTable_Click(object sender, EventArgs e)
         {
             Toast.MakeText(this, "Loading", ToastLength.Short).Show();
             Intent intent = new Intent(this, typeof(VolunteerMenu));

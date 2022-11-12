@@ -3606,16 +3606,16 @@ namespace FinalProjectV0._1
 			public const int btnMoveToManagerPage = 2131230797;
 			
 			// aapt resource value: 0x7F08004E
-			public const int btnMoveToRegularVolunteerMenu = 2131230798;
+			public const int btnMoveToRegularVolunteerTimeTable = 2131230798;
 			
 			// aapt resource value: 0x7F08004F
-			public const int btnMoveToRegularVolunteerTimeTable = 2131230799;
+			public const int btnMoveToSessionNotes = 2131230799;
 			
 			// aapt resource value: 0x7F080050
-			public const int btnMoveToSessionNotes = 2131230800;
+			public const int btnMoveToTimeTable = 2131230800;
 			
 			// aapt resource value: 0x7F080051
-			public const int btnMoveToTimeTable = 2131230801;
+			public const int btnMoveToVolunteerMenu = 2131230801;
 			
 			// aapt resource value: 0x7F080052
 			public const int buttonPanel = 2131230802;
