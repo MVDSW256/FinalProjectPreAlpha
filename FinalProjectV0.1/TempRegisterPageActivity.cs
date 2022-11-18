@@ -14,7 +14,7 @@ using static Android.Renderscripts.ScriptGroup;
 namespace FinalProjectV0._1
 {
     [Activity(Label = "RegisterPageActivity")]
-    public class RegisterPageActivity : Activity
+    public class TempRegisterPageActivity : Activity
     {
         Button register, registerAdmin;
         protected override void OnCreate(Bundle savedInstanceState)
@@ -22,10 +22,11 @@ namespace FinalProjectV0._1
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.TempRegisterPage);
+            SetContentView(Resource.Layout.Register3);
             // Create your application here
             register = FindViewById<Button>(Resource.Id.register);
             registerAdmin = FindViewById<Button>(Resource.Id.registerAdmin);
+
 
 
             register.Click += Register_Click;

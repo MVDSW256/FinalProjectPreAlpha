@@ -24,7 +24,7 @@ namespace FinalProjectV0._1
             isRegistered = CheckIfRegistered();
             if (!isRegistered)
             {
-                Intent register = new Intent(this, typeof(RegisterPageActivity));
+                Intent register = new Intent(this, typeof(RegisterPagesActivity));
                 
                 StartActivity(register);
             }

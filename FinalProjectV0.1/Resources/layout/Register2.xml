@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Which organization are you working with?"
+        android:textSize="36dp"
+        android:textAlignment="center"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="View Organizations"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:paddingHorizontal="9dp"
+        android:textSize="11dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnOrganizationSelectorDialog"
+        android:background="@drawable/dropdownprompt"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="due to the app being in an early version there are no organizations to choose, the whole will function with an imaginary organization in mind but a real organization can be substituted easily"
+        android:layout_margin="30dp"
+        android:textAlignment="center"
+        android:gravity="bottom"/>
+
+</LinearLayout>

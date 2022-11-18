@@ -7,12 +7,13 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Register Page"/>
+        android:text="Add organization specific questions and determine level of access"
+        android:textSize="24dp"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Detroit: Become Registered"
+        android:text="default registrarion"
         android:id="@+id/register"/>
     <Button
         android:layout_width="match_parent"
