@@ -22,7 +22,7 @@ namespace FinalProjectV0._1
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.RegisterPage);
+            SetContentView(Resource.Layout.TempRegisterPage);
             // Create your application here
             register = FindViewById<Button>(Resource.Id.register);
             registerAdmin = FindViewById<Button>(Resource.Id.registerAdmin);

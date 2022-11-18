@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="ManagerPageActivity.cs" />
     <Compile Include="NotesActivity.cs" />
+    <Compile Include="NotesAdapter.cs" />
     <Compile Include="RegisterPageActivity.cs" />
     <Compile Include="VolunteerMenu.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
@@ -99,11 +100,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\TempDatePicker.xml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.2.0.5" />
     <PackageReference Include="Xamarin.Google.Android.Material" Version="1.0.0.1" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
@@ -123,7 +119,7 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\RegisterPage.xml">
+    <AndroidResource Include="Resources\layout\TempRegisterPage.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -140,6 +136,12 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\DropDownPrompt.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\layout\ListViewLayout\" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\notesListPlaceholder.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

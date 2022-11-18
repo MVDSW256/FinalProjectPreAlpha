@@ -11,7 +11,7 @@
         android:orientation="horizontal"
         android:layout_margin="10dp">
         <TextView
-            android:text="View notes for "
+            android:text="View notes for"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="14dp"/>
@@ -41,13 +41,20 @@
             android:background="@drawable/dropdownprompt"
             />
         <TextView
-            android:text=" onwards"
+            android:text="onwards"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="14dp"/>
 
 
         </LinearLayout>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="400dp"
+        android:src="@drawable/noteslistplaceholder"
+        android:layout_gravity="center_horizontal"
+        />
      <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

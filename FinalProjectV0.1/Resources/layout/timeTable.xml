@@ -3,33 +3,40 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnChangeDate"
-        android:text="View A Different Date"/>
+        android:text="View A Different Date"
+        android:background="@drawable/roundedcorners"/>
 
     <ImageView
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
         android:id="@+id/scheduleTable"
-        android:src="@drawable/tableplaceholder"/>
+        android:src="@drawable/tableplaceholder"
+        android:background="@drawable/tableplaceholder"
+        android:padding="10dp"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:layout_width="wrap_content"
             android:layout_height="60dp"
             android:text="MOVE TO REGULAR VOLUNTEER MENU"
-            android:id="@+id/btnMoveToRegularVolunteerTimeTable"
-            android:gravity="center_vertical"/>
-        <Button
+            android:id="@+id/btnMoveToVolunteerMenu"
+            android:gravity="center_vertical"
+            android:background="@drawable/roundedcorners"
+            android:padding="10dp"/>
+        <androidx.appcompat.widget.AppCompatButton
             android:layout_width="wrap_content"
             android:layout_height="60dp"
             android:id="@+id/btnMoveToEditTime"
             android:text="EDIT TIME TABLE"
-            android:layout_gravity="center_vertical"/>
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/roundedcorners"
+            android:padding="10dp"/>
     </LinearLayout>
 
 </LinearLayout>
