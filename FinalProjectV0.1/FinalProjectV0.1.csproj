@@ -62,9 +62,11 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ListView_NotesAdapter.cs" />
     <Compile Include="ManagerPageActivity.cs" />
     <Compile Include="NotesActivity.cs" />
     <Compile Include="RegisterPagesActivity.cs" />
+    <Compile Include="SessionNote.cs" />
     <Compile Include="TempRegisterPageActivity.cs" />
     <Compile Include="VolunteerMenu.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
@@ -137,7 +139,11 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\DropDownPrompt.xml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\ListviewLayout_Notes.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\notesListPlaceholder.png" />
   </ItemGroup>

@@ -15,7 +15,6 @@
          android:layout_height="wrap_content"
         android:id="@+id/scheduleTable"
         android:src="@drawable/tableplaceholder"
-        android:background="@drawable/tableplaceholder"
         android:padding="10dp"/>
     <LinearLayout
         android:layout_width="match_parent"

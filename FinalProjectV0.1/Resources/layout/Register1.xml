@@ -61,7 +61,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/BirthDateInput"
-        android:text="View A Different Date"
+        android:text="pick a Date"
         android:paddingHorizontal="10dp"
         android:background="@drawable/roundedcorners"/>
     </LinearLayout>

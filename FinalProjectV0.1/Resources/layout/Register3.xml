@@ -7,7 +7,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add organization specific questions and determine level of access"
+        android:text="organization specific questions and determining level of access"
         android:textSize="24dp"/>
 
     <Button
@@ -20,4 +20,11 @@
         android:layout_height="wrap_content"
         android:text="Admin Registration"
         android:id="@+id/registerAdmin"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="due to the app being in an early version there are no organization specific questions. the app will function with an imaginary organization in mind but a real organization can be substituted easily"
+        android:layout_margin="30dp"
+        android:textAlignment="center"
+        android:gravity="bottom"/>
 </LinearLayout>

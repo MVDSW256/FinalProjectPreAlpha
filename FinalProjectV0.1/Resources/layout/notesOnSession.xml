@@ -49,17 +49,31 @@
 
         </LinearLayout>
 
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="400dp"
-        android:src="@drawable/noteslistplaceholder"
-        android:layout_gravity="center_horizontal"
-        />
-     <Button
+    <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="move to Volunteer Menu"
-        android:id="@+id/btnMoveToVolunteerMenu"/>
-
+        android:id="@+id/listView1">
+        
+        </ListView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="make a new note"
+            android:layout_margin="5dp"
+            android:background="@drawable/roundedcorners"
+            android:id="@+id/btnMakeANewNote"/>
+         <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="move to Volunteer Menu"
+            android:layout_margin="5dp"
+            android:background="@drawable/roundedcorners"
+            android:id="@+id/btnMoveToVolunteerMenu"/>
+    </LinearLayout>
 
 </LinearLayout>
