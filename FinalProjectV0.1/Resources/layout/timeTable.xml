@@ -9,12 +9,14 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnChangeDate"
         android:text="View A Different Date"
+        android:layout_margin="6dp"
         android:background="@drawable/roundedcorners"/>
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnDilterSessions"
         android:text="Filter Results"
+        android:layout_margin="6dp"
         android:background="@drawable/roundedcorners"/>
 
     <ImageView

@@ -67,7 +67,6 @@
     <Compile Include="NotesActivity.cs" />
     <Compile Include="RegisterPagesActivity.cs" />
     <Compile Include="SessionNote.cs" />
-    <Compile Include="TempRegisterPageActivity.cs" />
     <Compile Include="VolunteerMenu.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
