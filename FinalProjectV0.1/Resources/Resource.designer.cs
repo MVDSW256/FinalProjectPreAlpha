@@ -3329,7 +3329,7 @@ namespace FinalProjectV0._1
 			public const int navigation_empty_icon = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int notesListPlaceholder = 2131165299;
+			public const int NotesList = 2131165299;
 			
 			// aapt resource value: 0x7F070074
 			public const int notification_action_background = 2131165300;
@@ -3374,7 +3374,7 @@ namespace FinalProjectV0._1
 			public const int RoundedCorners = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int tablePlaceholder = 2131165314;
+			public const int SessionList = 2131165314;
 			
 			// aapt resource value: 0x7F070083
 			public const int tooltip_frame_dark = 2131165315;

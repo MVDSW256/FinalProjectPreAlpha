@@ -48,14 +48,18 @@
 
 
         </LinearLayout>
+    <ImageView
+        android:src="@drawable/NotesList"
+        android:layout_width="wrap_content"
+        android:layout_height="375dp" />
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/listView1">
-        
         </ListView>
-    <LinearLayout
+    
+        <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -75,5 +79,4 @@
             android:background="@drawable/roundedcorners"
             android:id="@+id/btnMoveToVolunteerMenu"/>
     </LinearLayout>
-
 </LinearLayout>

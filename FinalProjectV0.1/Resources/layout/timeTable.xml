@@ -18,12 +18,12 @@
         android:text="Filter Results"
         android:layout_margin="6dp"
         android:background="@drawable/roundedcorners"/>
-
+    
     <ImageView
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:layout_height="369dp"
         android:id="@+id/scheduleTable"
-        android:src="@drawable/tableplaceholder"
+        android:src="@drawable/SessionList" 
         android:padding="10dp"/>
     <LinearLayout
         android:layout_width="match_parent"
