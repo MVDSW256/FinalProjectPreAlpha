@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "652154985635",
+    "firebase_url": "https://lend-a-hand-ea7b2-default-rtdb.firebaseio.com",
+    "project_id": "lend-a-hand-ea7b2",
+    "storage_bucket": "lend-a-hand-ea7b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652154985635:android:2bcc7bff55e769fd3c7316",
+        "android_client_info": {
+          "package_name": "com.companyname.finalprojectv0_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652154985635-uefcpqf86660vgrdagrfnhreqs0le8ds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRoWlXIfU2VtY8MsvVxr6lh1Lg2VorvrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652154985635-uefcpqf86660vgrdagrfnhreqs0le8ds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

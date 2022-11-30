@@ -14,7 +14,7 @@ namespace FinalProjectV0._1
 {
 	
 	
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "13.0.0.73")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "12.3.3.31")]
 	public partial class Resource
 	{
 		
@@ -3308,7 +3308,7 @@ namespace FinalProjectV0._1
 			public const int design_snackbar_background = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int DropDownPrompt = 2131165292;
+			public const int dropdownprompt = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
 			public const int ic_mtrl_chip_checked_black = 2131165293;
@@ -3329,7 +3329,7 @@ namespace FinalProjectV0._1
 			public const int navigation_empty_icon = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int NotesList = 2131165299;
+			public const int noteslist = 2131165299;
 			
 			// aapt resource value: 0x7F070074
 			public const int notification_action_background = 2131165300;
@@ -3368,13 +3368,13 @@ namespace FinalProjectV0._1
 			public const int notify_panel_notification_icon_bg = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int placeHolder = 2131165312;
+			public const int placeholder = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int RoundedCorners = 2131165313;
+			public const int roundedcorners = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int SessionList = 2131165314;
+			public const int sessionlist = 2131165314;
 			
 			// aapt resource value: 0x7F070083
 			public const int tooltip_frame_dark = 2131165315;
@@ -4458,10 +4458,10 @@ namespace FinalProjectV0._1
 			public const int design_text_input_password_icon = 2131427372;
 			
 			// aapt resource value: 0x7F0B002D
-			public const int ListviewLayout_Notes = 2131427373;
+			public const int listviewlayout_notes = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int ManagerPage = 2131427374;
+			public const int managerpage = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
 			public const int mtrl_layout_snackbar = 2131427375;
@@ -4470,7 +4470,7 @@ namespace FinalProjectV0._1
 			public const int mtrl_layout_snackbar_include = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int notesOnSession = 2131427377;
+			public const int notesonsession = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
 			public const int notification_action = 2131427378;
@@ -4491,13 +4491,13 @@ namespace FinalProjectV0._1
 			public const int notification_template_part_time = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int Register1 = 2131427384;
+			public const int register1 = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int Register2 = 2131427385;
+			public const int register2 = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int Register3 = 2131427386;
+			public const int register3 = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
 			public const int select_dialog_item_material = 2131427387;
@@ -4512,10 +4512,10 @@ namespace FinalProjectV0._1
 			public const int support_simple_spinner_dropdown_item = 2131427390;
 			
 			// aapt resource value: 0x7F0B003F
-			public const int timeTable = 2131427391;
+			public const int timetable = 2131427391;
 			
 			// aapt resource value: 0x7F0B0040
-			public const int VolunteerMenu = 2131427392;
+			public const int volunteermenu = 2131427392;
 			
 			static Layout()
 			{
